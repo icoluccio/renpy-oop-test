@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 38, in script
+    $ luckPerCharacter = LuckPerCharacter()
+  File "game/script.rpy", line 38, in <module>
+    $ luckPerCharacter = LuckPerCharacter()
+NameError: name 'LuckPerCharacter' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 38, in script
+    $ luckPerCharacter = LuckPerCharacter()
+  File "C:\renpy\renpy-7.0.0-sdk\renpy\ast.py", line 862, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\renpy\renpy-7.0.0-sdk\renpy\python.py", line 1912, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 38, in <module>
+    $ luckPerCharacter = LuckPerCharacter()
+NameError: name 'LuckPerCharacter' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 7.0.0.196
+OOP 1.0
+Tue Sep 04 22:16:14 2018
